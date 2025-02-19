@@ -17,6 +17,7 @@ A Vue 3 + Nuxt 3 project utilizing Tailwind CSS for styling, and integration wit
 ## **Prerequisites**
 - Docker
 - Docker Compose
+- Node 18 or later
 
 ---
 
