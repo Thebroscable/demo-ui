@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   nuxt:
     build:
@@ -9,9 +7,3 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-    networks:
-      - nuxt-network
-
-networks:
-  nuxt-network:
-    driver: bridge
